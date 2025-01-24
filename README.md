@@ -17,6 +17,10 @@ pip install sphinx
 #  Inicializar Sphinx en tu proyecto
 sphinx-quickstart
 
+# Comandos de generacion en Sphinx
+make html
+make clean
+
 # for django
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.viewcode', 'sphinx.ext.napoleon']
 
